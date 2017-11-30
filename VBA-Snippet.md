@@ -1,7 +1,9 @@
- ##### 所有sheet
+所有sheet
 * 自动滚动选择A1单元格
 * sheet缩放到100%
 * 自动保存/关闭
+
+---
 
 ```  
 Sub ResetCursorAndZoom()
@@ -18,5 +20,3 @@ Sub ResetCursorAndZoom()
     ActiveWorkbook.Close
 End Sub
 ```  
-
----
